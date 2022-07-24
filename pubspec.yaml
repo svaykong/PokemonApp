@@ -1,0 +1,30 @@
+name: pokemon_app
+description: A pokemon app built with bloc state management
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.2.1
+  connectivity_plus: ^2.3.6
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
